@@ -1,0 +1,37 @@
+s={5,8,3,12,1}
+for item in s:
+    print(item) 
+s={2,'string',33.6, True}
+print(type(s))
+print(s)
+s={1,2,3,45,6}
+s.add(16)
+print(s)
+t={1,2,3,4,12,13}
+t1={4,1,6,7,8,9}
+print(t.intersection(t1))
+r={1,2,3,4,12,13}
+r1={4,1,6,7,8,9}
+print(r.difference(r1))
+y={2,3,4,5,6}
+y1={6,2,11,13,9}
+print(y.union(y1))
+a={2,3,4,5,6}
+a1={6,2,11,13,9}
+print(a.symmetric_difference(a1))
+f={2,3,4,5,6,7}
+f1={6,4,2,9,11}
+print(f.intersection(f1))
+s={1,2,3,45,6}
+s.remove(3)
+print(s)
+u={1,2,3,4,5,6,7}
+u1={3,4,11,12}
+u.add(16)
+print(u.difference(u1))
+h={11,23,34,45,56,1}
+h1={6,1,11,45,23,22,16}
+print(h.intersection(h1))
+s={10,20,30,40,50,60,70}
+s.difference_update({10,20,30})
+print(s)
