@@ -1,0 +1,15 @@
+l=[1,2,3,4,5]
+l1=[9,8,7,6]
+l.extend(l1)
+print(l)
+l=[1,2,3,4,5,6]
+l.remove(3)
+print(l)
+l=[3,4,5,6,7]
+l.pop(2)
+print(l)
+l=[1,2,3,1,4,5,1,2]
+s=set(l)
+p=s.union()
+o=list(p)
+print(o)
