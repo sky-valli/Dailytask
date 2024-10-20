@@ -1,0 +1,15 @@
+t=()
+print(type(t))
+t=(1,2,3)
+a,s,d=t
+print(s)
+print(a)
+print(d)
+t=(7,4,8,2,1)
+l=list(t)
+l.insert(4,11)
+t=tuple(l)
+print(t)
+t=(1,2,3,4,3,5,3)
+print(t.count(3))
+
