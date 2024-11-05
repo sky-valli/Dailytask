@@ -108,13 +108,7 @@ print('\nafer updating:')
 person1.display_info()
 
 """
-class BankAccount:
-    def __init__(self,deposit,withdraw):
-        self.deposit=deposit
-        self.withdraw=withdraw
-    def bal(self):
-        print(self.deposit)
-        print(self.withdraw)
+
     
 
 
