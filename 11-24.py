@@ -41,7 +41,7 @@ class engineer(employee):
         overtime_pay=self.hourly_pay * self.over_time
         print( regular_sal + overtime_pay )
 m = manager('thanish',35000,5000)
-m.cal_sal()
+m.cal_sal()   
 e = engineer('bhasha',60000,120,50)
 e.cal_sal()
 
